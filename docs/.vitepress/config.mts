@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Docs",
   description: "A VitePress Site",
-  base: "/fei/", // 部署到github上时访问的根目录
+  base: "/my-docs/", // 部署到github上时访问的根目录
   lastUpdated: true, // 页面上展示最后更新的时间
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
